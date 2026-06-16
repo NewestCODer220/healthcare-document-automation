@@ -8,7 +8,7 @@ The solution was built to reduce manual data entry, improve document accuracy, p
 
 ## Business Problem
 
-Staff were required to manually review assessment PDFs, transfer data into Excel, generate individualized documents, format each document, and prepare files for distribution.
+Staff were required to manually review assessment PDFs, transfer data and generate individualized documents, format each document, and prepare files for distribution.
 
 This process was time-consuming, repetitive, and prone to formatting or data-entry errors.
 
