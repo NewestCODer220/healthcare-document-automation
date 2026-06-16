@@ -30,7 +30,6 @@ I developed an automation workflow using Python, VBA, Excel, and Mail Merge to:
 - Microsoft Excel
 - Microsoft Word Mail Merge
 - PDF data extraction
-- RingCentral workflow support
 
 ## Business Impact
 
