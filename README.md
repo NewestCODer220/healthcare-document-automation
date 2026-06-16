@@ -58,17 +58,21 @@ Review and Distribution
 
 ```text
 healthcare-document-automation/
+
+├── docs/
+│   └── data_privacy_note.md
+│   └── workflow_overview.md
 │
-├── README.md
-├── LICENSE
-├── .gitignore
+└── samples/
+│    └── sample_assesment_data.xlsx
+│    └── sample_output_description.md
 │
 ├── src/
 │   └── document_automation.py
 │
-├── docs/
-│   ├── data_privacy_note.md
-│   └── workflow_overview.md
-│
-└── samples/
-    └── sample_output_description.md
+├── README.md
+├── LICENSE
+├── .gitignore
+
+    
+
