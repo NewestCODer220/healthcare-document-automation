@@ -1,81 +1,29 @@
 # Sample Output Description
 
-## Project Overview
+## Generated Service Planning Documents
 
-This project automates the generation of healthcare service planning documents by extracting structured information from assessment PDFs, organizing the data within Excel, and populating document templates through automated Mail Merge workflows.
+The automation produced individualized service planning documents by combining assessment data extracted from PDF forms with structured Excel datasets.
 
-The solution was developed to reduce manual administrative effort, improve data consistency, and streamline high-volume document processing.
+Each generated document was automatically populated with relevant client information while maintaining a consistent format across all outputs.
 
----
+## Document Features
 
-## Input Sources
-
-The automation processes information from:
-
-* Assessment PDF forms
-* Structured Excel datasets
-* Mail Merge templates
-
-Data is extracted, validated, and organized before document generation.
-
----
-
-## Automation Workflow
-
-Assessment PDF
-
-↓
-
-Python Data Extraction
-
-↓
-
-Excel Data Organization
-
-↓
-
-VBA Processing & Validation
-
-↓
-
-Mail Merge Document Generation
-
-↓
-
-Formatted Service Planning Documents
-
----
-
-## Generated Document Contents
-
-The final output may include:
+Generated documents included:
 
 * Client demographic information
-* Care coordination information
-* Provider information
-* Medication details
+* Care coordination and provider information
+* Medication details and support requirements
 * Individual goals and objectives
 * Program-specific planning information
 
-Formatting is automatically preserved while designated fields remain editable for staff review and updates.
-
----
+The solution preserved document formatting and structure while allowing designated sections to remain editable for staff review and updates.
 
 ## Business Impact
 
-* Automated processing of 100+ documents per day
-* Reduced manual administrative effort by approximately 40–50 hours per week
-* Improved document consistency and accuracy
-* Reduced repetitive data entry tasks
-* Increased scalability of document generation workflows
+The automated document generation process:
 
----
-
-## Technologies Used
-
-* Python
-* VBA
-* Microsoft Excel
-* Microsoft Word Mail Merge
-* PDF Data Extraction
-* Process Automation
+* Reduced manual document preparation and formatting
+* Improved consistency across generated documents
+* Minimized data-entry errors
+* Automated the creation of 100+ documents per day
+* Saved approximately 40–50 labor hours per week
