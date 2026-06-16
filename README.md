@@ -63,12 +63,14 @@ healthcare-document-automation/
 │   └── data_privacy_note.md
 │   └── workflow_overview.md
 │
-└── samples/
-│    └── sample_assesment_data.xlsx
-│    └── sample_output_description.md
+├── samples/
+│   └── sample_assesment_data.xlsx
+│   └── sample_output_description.md
 │
 ├── src/
 │   └── document_automation.py
+│   └── locked_merged_docs_macro.bas
+│   └── medication_table_macro.bas
 │
 ├── README.md
 ├── LICENSE
