@@ -60,11 +60,10 @@ healthcare-document-automation/
 
 ├── docs/
 │   └── data_privacy_note.md
-│   └── workflow_overview.md
+│   └── output_description_overview.md
 │
 ├── samples/
 │   └── sample_assesment_data.xlsx
-│   └── sample_output_description.md
 │
 ├── src/
 │   └── document_automation.py
