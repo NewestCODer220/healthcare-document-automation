@@ -3,8 +3,8 @@ from pypdf import PdfReader
 from pypdf.errors import DependencyError, PdfReadError
 from openpyxl import Workbook
 
-PDF_FOLDER = r"C:\Users\BrandonEdgerson\OneDrive - CareStar Inc\Carestar\OHCWEAT"
-OUTPUT_PATH = r"C:\Users\BrandonEdgerson\OneDrive - CareStar Inc\Carestar\OHCWEAT\Best_Updated_Test_Merge_Sheet.xlsx"
+PDF_FOLDER = r"sample_data/input_pdfs"
+OUTPUT_PATH = r"sample_data/output/sample_merge_sheet.xlsx"
 
 NUM_RECENT_PDFS = 65
 
