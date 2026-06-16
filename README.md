@@ -2,106 +2,73 @@
 
 ## Overview
 
-This project automated the creation of healthcare service planning documents by extracting structured data from assessment PDFs, organizing the information in Excel, and generating completed service plan documents through an automated mail merge process.
+This project automated a healthcare document workflow by extracting structured data from assessment PDFs, organizing the information in Excel, and generating completed service planning documents through an automated Mail Merge process.
 
-The solution was developed to reduce manual data entry, improve document accuracy, and streamline administrative workflows.
-
----
+The solution was built to reduce manual data entry, improve document accuracy, preserve formatting, and streamline high-volume administrative workflows.
 
 ## Business Problem
 
-Staff were required to manually:
+Staff were required to manually review assessment PDFs, transfer data into Excel, generate individualized documents, format each document, and prepare files for distribution.
 
-* Open healthcare assessment PDFs
-* Locate required information across multiple pages
-* Transfer demographic and healthcare information
-* Copy medication records
-* Copy client goals
-* Complete service planning documents
-* Save and upload completed files
-
-This process was repetitive, time-consuming, and susceptible to data entry errors.
-
----
+This process was time-consuming, repetitive, and prone to formatting or data-entry errors.
 
 ## Solution
 
-A Python-based automation workflow was developed to:
+I developed an automation workflow using Python, VBA, Excel, and Mail Merge to:
 
-1. Read assessment PDF files
-2. Extract structured form field data
-3. Populate Excel workbooks automatically
-4. Generate mail merge data sources
-5. Create completed service planning documents
+- Extract structured data from assessment PDFs
+- Organize extracted fields into Excel
+- Generate individualized service planning documents
+- Preserve document formatting
+- Keep required text sections editable
+- Reduce manual document preparation time
 
-The system automated the transfer of:
+## Tools Used
 
-* Client information
-* Contact information
-* Medicaid information
-* Language preferences
-* Care manager information
-* Primary care physician information
-* Caregiver information
-* Medication records
-* Individual goals
+- Python
+- VBA
+- Microsoft Excel
+- Microsoft Word Mail Merge
+- PDF data extraction
+- RingCentral workflow support
 
----
+## Business Impact
 
-## Technologies Used
+- Automated 100+ patient-specific documents per day
+- Saved approximately 40–50 labor hours per week
+- Reduced manual data entry and document formatting work
+- Improved document consistency and accuracy
+- Created documentation shared across the office for training and scalability
 
-* Python
-* OpenPyXL
-* PyPDF
-* Excel VBA
-* Microsoft Excel
-* Microsoft Word Mail Merge
+## Workflow
 
----
+Assessment PDF  
+↓  
+Python Data Extraction  
+↓  
+Structured Excel Dataset  
+↓  
+VBA / Mail Merge Automation  
+↓  
+Formatted Service Planning Documents  
+↓  
+Review and Distribution
 
-## Technical Workflow
+## Repository Structure
 
-Assessment PDF
-
-↓
-
-Python Data Extraction
-
-↓
-
-Excel Data Population
-
-↓
-
-Mail Merge Data Source
-
-↓
-
-Automated Document Generation
-
-↓
-
-Completed Service Plan Document
-
----
-
-## Results
-
-* Automated extraction of assessment data
-* Eliminated repetitive manual data entry
-* Automated generation of 100+ documents per day
-* Reduced administrative processing time
-* Improved document consistency and accuracy
-
----
-
-## Skills Demonstrated
-
-* Process Automation
-* Python Development
-* Data Extraction
-* PDF Processing
-* Excel Automation
-* VBA Development
-* Workflow Optimization
-* Business Process Improvement
+```text
+healthcare-document-automation/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── src/
+│   └── document_automation.py
+│
+├── docs/
+│   ├── data_privacy_note.md
+│   └── workflow_overview.md
+│
+└── samples/
+    └── sample_output_description.md
